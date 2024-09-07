@@ -1,0 +1,60 @@
+{
+    "config": {
+      "version": 1,
+      "datetime": "Initial",
+      "Services": {
+        "LosAngeles": {
+            "DNS": {
+              "target": "108.170.228.102",
+              "queries": 
+                {
+                  "domain": "mlssoccer.com",
+                  "type": "A"
+                },
+              "interval": 250
+            },
+            "UDP": {
+              "target": "209.18.36.55",
+              "port": 443,
+              "interval": 80
+            },
+            "NTP": {
+              "target": "a",
+              "interval": 120
+            },
+            "HTTPS": {
+              "target": "wsu.edu",
+              "port": 80,
+              "interval": 40
+            }
+          },
+        "NewYork": {
+            "ICMP": {
+              "target": "13.107.42.14",
+              "interval": 60
+            },
+            "NTP": {
+              "target": "time3.google.com",
+              "interval": 120
+            },
+            "HTTP": {
+              "target": "34.223.124.45",
+              "port": 80,
+              "interval": 2
+            },
+            "TCP": {
+              "target": "23.36.9.243",
+              "port": 443,
+              "interval": 60
+            }
+          },
+        "Brisbane" : {
+
+        },
+        "London" : {
+          
+        }
+    }
+  }
+}
+  
